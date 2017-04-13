@@ -1,19 +1,22 @@
 
 html{
-  background: url("../img/laserbkg.jpg") bottom center no-repeat;
+  background: #000 bottom center no-repeat;
   background-size: cover;
   width: 100%;
   min-height: 100%;
-  font-size: 2em;
+
 }
 
 body{
   background: none;
-  color: #FFF;
+
   text-align: center;
 
-  font-family: "Oswald", sans-serif;
-  text-shadow: #2A3538 0px 3px 0px;
+  font-family: "Press Start 2P", sans-serif;
+
+
+  color: #FFF;
+  text-shadow: #21B7D4 0px 2px 0px;
 
 }
 
@@ -23,15 +26,28 @@ h1, h2, h3, h4, .rollup
   font-family: "transformers", sans-serif;
   text-transform: uppercase;
   color: #FFF;
+  margin-top: 100px;
+
+  color: #FECDEA;
+  text-shadow: #B52C80 0px 0px 20px;
 
 }
 
+h2
+{
+    font-size: 48px;
+}
+
+.rollup
+{
+    font-size: 2em;
+}
 
 li
 {
   list-style-position:inside;
   list-style: none;
-  
+
 
 }
 
@@ -69,7 +85,7 @@ a img
   margin: 0px;
   padding: 0px;
   display: block;
-  border: 2px solid white;
+  border: 2px solid #FECDEA;
 }
 
 a img:hover
@@ -77,18 +93,31 @@ a img:hover
   transform: translateY(-10px);
 }
 
+
+
 .container
 {
-  padding: 30px 30px;;
+    width: 900px;
+    margin: 0px auto;
+  line-height: 2em;
 }
 
 
 .btn
 {
-  background: #678FCA;
+  background: #222;
   border-radius: 10px;
-  font-size: 1em;
+  border-bottom: 5px solid #333;
+  font-size: 1.5em;
   text-decoration: none;
-  padding: .4em;
+  padding: 1em;
+  margin: 40px;
+  display: block;
   color: #FFF;
+}
+
+.btn:hover
+{
+    background: #37B9D1;
+    border-color: #117A8E;
 }
